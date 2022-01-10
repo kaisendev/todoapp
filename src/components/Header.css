@@ -1,0 +1,10 @@
+/* Header */
+.todo-title {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.todo-title h1 {
+    padding-top: 1rem;
+}

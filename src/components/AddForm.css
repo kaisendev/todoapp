@@ -1,0 +1,29 @@
+/* Add Form */
+.form-todo {
+ text-align: center;
+}
+
+.form-todo input[type="text"] {
+    border: 2px solid #aaa;
+    border-radius:4px;
+    box-sizing: border-box;
+    height: 2.5rem;
+    text-align: center;
+    width: 68%;
+    margin-right: 0.2rem;
+}
+
+.form-todo button {
+    border: 2px solid #aaa;
+    border-radius:4px;
+    width: 3rem;
+    height: 2.5rem;
+    margin-right: 0.2rem;
+}
+
+.form-todo input[type="text"]:focus{
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+
