@@ -18,6 +18,14 @@ body {
     padding-bottom: 1rem;
 }
 
+input[type="text"]{
+    font-size: 1.2rem;
+}
+
+.unorderedTodos input[type="text"] {
+   font-weight: bold;
+}
+
 @media (min-width:600px){
     .container {
         width: 50%;

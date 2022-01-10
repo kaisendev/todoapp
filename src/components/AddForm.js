@@ -51,12 +51,14 @@ const AddForm = ({todos, setTodos, input, setInput, editTodo, setEditTodo }) => 
         <div className="form-todo">
             <form onSubmit={addTodos}>
                 <input onChange={onInputChange} value={input} type="text" placeholder='Enter Todo' required/>
+                <div>
                 <button type="submit" className='button-add'>
                     {editTodo ? "Update" : "Add"} 
                 </button>
                 <button onClick={ handleclear } type="submit" className='button-add'>
                     Clear
-                </button>
+                </button></div>
+
             </form>
         </div>
     )

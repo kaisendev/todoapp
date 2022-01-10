@@ -9,6 +9,8 @@
 
 .completed {
     text-decoration: line-through;
+    background-color: mediumspringgreen;
+    font-style: italic;
 }
 
 .unorderedTodos input[type="text"] {
