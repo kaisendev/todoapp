@@ -16,10 +16,12 @@
 .form-todo button {
     border: 2px solid #aaa;
     border-radius:4px;
-    width: 3rem;
+    width: 4rem;
     height: 2.4rem;
     margin-right: 0.2rem;
     margin-top: 0.4rem;
+    font-family: Consolas;
+    font-weight: bold;
 }
 
 .form-todo input[type="text"]:focus{

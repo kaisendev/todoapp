@@ -6,7 +6,7 @@
 
 body {
 
-  font-family:source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  font-family:Consolas, Menlo, Monaco, Consolas, 'Courier New', monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -20,10 +20,8 @@ body {
 
 input[type="text"]{
     font-size: 1.2rem;
-}
-
-.unorderedTodos input[type="text"] {
-   font-weight: bold;
+    font-weight: bold;
+    font-family: Candara, 'Courier New', monospace;
 }
 
 @media (min-width:600px){
