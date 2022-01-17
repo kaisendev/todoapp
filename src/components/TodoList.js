@@ -33,8 +33,8 @@ const TodoList = ({todos, setTodos, editTodo, setEditTodo, setInput}) => {
     }
 
     return (
-        <div className='todo-title'>
-            <h1>{ todos.length > 0 ? "Todos" : "No Todos"}</h1>
+        <div className='todolist-h2'>
+            <h2>{ todos.length > 0 ? "Todos" : "No Todos"}</h2>
                 <ul className="unorderedTodos">
                 {todos.map((todo) => (
                     
